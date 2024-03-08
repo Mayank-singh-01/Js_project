@@ -1,2 +1,3 @@
 # Js_project
-java_script  mini project 
+java_script that contain 30 mini projects which make my javascript basic strong
+
