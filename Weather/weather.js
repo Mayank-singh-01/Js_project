@@ -6,4 +6,5 @@ async function checkWeather() {
     var data = await respons.jeson();
 
     console.log(data);
+    
 }
