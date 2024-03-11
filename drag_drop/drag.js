@@ -23,4 +23,3 @@ for( item of lists ){
        });
     }) 
 }
-
