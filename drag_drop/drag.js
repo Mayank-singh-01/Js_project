@@ -6,14 +6,14 @@ for( item of lists ){
     item.addEventListener("dragstart", function(e){
        let selected = e.target;  // it target the selected one
 
-       rightBox.addEventListener("dragover", function(e){
+       rightBox.addEventListener("dragover", function(e){ // the right box can grab the dragitem 
         e.preventDefault();
        });
-       rightBox.addEventListener("drop", function(e){
+       rightBox.addEventListener("drop", function(e){   // it this code it can append the item on itself
         rightBox.appendChild(selected);
         selected = null ;
        });
-       leftBox.addEventListener("dragover", function(e){
+       leftBox.addEventListener("dragover", function(e){  // same function is aplied for left box 
         e.preventDefault();
        });
 
