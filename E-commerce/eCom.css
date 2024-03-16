@@ -8,13 +8,11 @@
     --mainSpacing: 0.1rem;
     --mainTransition: all 0.3s linear;
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     color: var(--mainBlack);
     background: var(--mainWhite);
@@ -43,12 +41,10 @@ body {
 .nav-icon {
     font-size: 1.5rem;
 }
-
 .cart-btn {
     position: relative;
     cursor: pointer;
 }
-
 .cart-items {
     position: absolute;
     top: -8px;
@@ -58,7 +54,6 @@ body {
     border-radius: 30%;
     color: var(--mainWhite);
 }
-
 /* --------------- End of Navbar ---------------- */
 /* --------------- Hero ---------------- */
 .hero {
@@ -74,14 +69,12 @@ body {
     display: inline-block;
     padding: 2rem;
 }
-
  .banner-title {
     font-size: 3.4rem;
     text-transform: uppercase;
     letter-spacing: var(--mainSpacing);
     margin-bottom: 3rem;
 }
-
 .banner-btn {
     padding: 1rem 3rem;
     text-transform: uppercase;
@@ -93,14 +86,11 @@ body {
     transition: var(--mainTransition);
     cursor: pointer;
 }
-
 .banner-btn:hover {
     background: transparent;
     color: var(--primaryColor);
 }  
-
 /* --------------- End of Hero ---------------- */
-
 /* -----------------product --------------- */
 .products {
     padding: 4rem 0;
@@ -127,12 +117,10 @@ body {
     border-radius: 10px;
     /* margin: 0 15px; */
 }
-
 .img-container {
     position: relative;
     overflow: hidden;    
 }
-
 .bag-btn {
     position: absolute;
     top: 70%;
@@ -147,19 +135,15 @@ body {
     transform: translateX(101%);
     cursor: pointer;
 }
-
 .bag-btn:hover {
     color: var(--mainWhite);
 }
-
 .fa-shopping-cart {
     margin-right: 0.5rem;
 }
-
 .product:hover .bag-btn {
     transform: translateX(0);
 }
-
 .product-image {
     display: block;
     width: 320px;
@@ -167,11 +151,9 @@ body {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
 .product:hover .product-image {
     opacity: 0.5;
 }
-
 .product h3 {
     text-transform: capitalize;
     font-size: 1.1rem;
@@ -179,7 +161,6 @@ body {
     letter-spacing: var(--mainSpacing);
     text-align: center;
 }
-
 .product h4 {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -200,7 +181,6 @@ body {
     z-index: 2;
     visibility: hidden;
 }
-
 .cart {
     position: fixed;
     top: 0;
@@ -214,34 +194,28 @@ body {
     transition: var(--mainTransition);
     transform: translateX(100%);
 }
-
 .showCart {
     transform: translateX(0);
 }
-
 .transparentBcg {
     visibility: visible;
 }
-
 @media screen and (min-width: 768px) {
     .cart {
         width: 30vw;
         min-width: 450px;
     }
 }
-
 .close-cart {
     font-size: 1.7rem;
     cursor: pointer;
 }
-
 .cart h2 {
     text-transform: capitalize;
     text-align: center;
     letter-spacing: var(--mainSpacing);
     margin-bottom: 2rem;
 }
-
 /*---------- Cart Item -------------------- */
 .cart-item {
     display: grid;
@@ -250,54 +224,42 @@ body {
     grid-column-gap: 1.5rem;
     margin: 1.5rem 0;
 }
-
 .cart-item img {
     width: 75px;
     height: 75px;
 }
-
 .cart-item h4 {
     font-size: 0.85rem;
     text-transform: capitalize;
     letter-spacing: var(--mainSpacing);
 }
-
 .cart-item h5 {
     margin: 0.5rem 0;
     letter-spacing: var(--mainSpacing);
 }
-
 .item-amount {
     text-align: center;
 }
-
 .remove-item {
     color: grey;
     cursor: pointer;
 }
-
 .fa-chevron-up,
 .fa-chevron-down {
     color: var(--primaryColor);
     cursor: pointer;
 }
-
 /*---------- End of Cart Item -------------------- */
-
 .cart-footer {
     margin-top: 2rem;
     letter-spacing: var(--mainSpacing);
     text-align: center;
 }
-
 .cart-footer h3 {
     text-transform: capitalize;
     margin-bottom: 1rem;
 }
-
-/* --------------- End of Cart ---------------- */
 /* --------------footer-------------- */
-
 .footer-container {
     display: flex;
     align-items: center;
@@ -331,3 +293,4 @@ body {
 .footer-div2 i{
     color: rgb(231, 226, 221);
 }
+/* --------------end of footer-------------- */
