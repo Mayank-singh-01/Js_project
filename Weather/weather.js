@@ -1,6 +1,8 @@
 
 const apiKey = "d3c42713f099a12710261a32d83aefb3";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+const search = document.querySelector(".search input");
+const searchBtn = document.querySelector(".search button");
 
 async function checkWeather(location) {
     try {
@@ -18,4 +20,6 @@ async function checkWeather(location) {
     }
 }
 
-checkWeather("gaya");
+searchBtn.addEventListener('click', () => {
+    checkWeather(search.value)
+})
